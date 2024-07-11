@@ -1,3 +1,5 @@
 <resources>
+    <string name="app_name_menu">MyMenu</string>
     <string name="app_name">MyApp</string>
+
 </resources>

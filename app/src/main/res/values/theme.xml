@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
-    <!--Màu chính (ví dụ nền AppBar)-->
-    <item name="colorPrimary">@color/colorPrimary</item>
-    <!--Màu nền thanh trạng thái điện thoại-->
-    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-    <!--Màu nhấn mạnh (kiểm trong checkbox, gạch chân TextBox ...)-->
-    <item name="colorAccent">@color/colorAccent</item>
-    </style>
 
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--Màu chính (ví dụ nền AppBar)-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--Màu nền thanh trạng thái điện thoại-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--Màu nhấn mạnh (kiểm trong checkbox, gạch chân TextBox ...)-->
+        <item name="colorAccent">@color/colorAccent</item>
+
+<!--        Chặn quền nổi AppBar-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 
 
     <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
